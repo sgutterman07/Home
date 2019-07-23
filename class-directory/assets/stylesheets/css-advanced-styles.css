@@ -1,0 +1,58 @@
+html {
+  background: url(../images/soul-fox.png) no-repeat center center fixed;
+  background-size: cover;
+}
+
+body {
+/*background-color: #f4f4f4; */
+background-color: rgba(244,244,244,0.75)
+}
+
+section {
+/* shorthand for padding top and bottom */
+padding: 80x 0;
+/*padding-top: 80px;
+padding-bottom: 80px;
+
+Margin - 2 numbers - top/bottom or right/left
+        4 numbers - top right bottom left
+*/
+position: relative;
+border: 1px solid #000;
+}
+
+.absolute {
+  width: 200px;
+  height: 200px;
+  position:absolute;
+}
+
+.red {
+  width: 100px;
+  height: 100px;
+  background-color:red;
+  border-radius: 8px;
+  margin-bottom: 16px;
+}
+
+.red-gradient {
+  background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 18%, rgba(9,9,121,1) 40%, rgba(0,145,255,1) 82%);
+}
+
+.image-sizing {
+  width:200px;
+  height:200px;
+  border: 1px solid #000;
+}
+.image-sizing img {
+  width: 200px;
+  height: 200px;
+
+}
+/* responsive scaling image */
+.image-responsive {
+  display:block;
+  width: 100%;
+  height: auto;
+}
